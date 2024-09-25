@@ -1,0 +1,106 @@
+/* ______ Body ______ */
+body {
+  font-size: 15px;
+  color: #333;
+  font-family: "Segoe UI";
+  box-sizing: border-box;
+}
+
+/* ______ Main menu ______ */
+.main-menu {
+  display: flex;
+  align-items: center;
+  height: 6.5rem;
+  background: #053281;
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
+}
+
+.main-menu-box {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hidden {
+  display: none;
+}
+
+/* ______ Main logo ______ */
+.main-logo {
+  width: 8rem;
+  height: 8rem;
+  background-color: none;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+/* ______ Button Menu ______ */
+.home-page {
+  color: white;
+  display: inline-block;
+  padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+  background: none;
+  background-color: #053281;
+  border: 0.05rem white solid;
+  border-radius: 0.5rem;
+  margin-right: -5rem;
+  font-size: 1.25rem;
+  cursor: pointer;
+  position: relative;
+}
+
+.staff {
+  color: white;
+  border: none;
+  background: none;
+  padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+  background-color: #053281;
+  border: 0.05rem white solid;
+  border-radius: 0.5rem;
+  margin-right: 5rem;
+  font-size: 1.25rem;
+  cursor: pointer;
+}
+
+.head-team {
+  color: white;
+  border: none;
+  background: none;
+  padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+  background-color: #053281;
+  border: 0.05rem white solid;
+  border-radius: 0.5rem;
+  font-size: 1.25rem;
+  margin-left: 5rem;
+  cursor: pointer;
+}
+
+.discuss {
+  color: white;
+  border: none;
+  background: none;
+  /* margin-left: 3rem; */
+  padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+  background-color: #053281;
+  border: 0.05rem white solid;
+  border-radius: 0.5rem;
+  font-size: 1.25rem;
+  cursor: pointer;
+}
+
+/* ______ Image ______ */
+.img-style {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  height: 650px;
+  border-bottom-left-radius: 0.5rem;
+  border-bottom-right-radius: 0.5rem;
+}
